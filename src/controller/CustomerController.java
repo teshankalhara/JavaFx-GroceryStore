@@ -125,12 +125,12 @@ public class CustomerController {
         // System.out.println("Customer List: " + customerList);
 
         ObservableList<CustomerTM> customerTMList = FXCollections.observableArrayList();
-        for (Customer cust : customerList) {
+        for (Customer customer : customerList) {
             CustomerTM customerTM = new CustomerTM(
-                    cust.getCustomerId(),
-                    cust.getName(),
-                    cust.getAddress(),
-                    cust.getSalary(),
+                    customer.getCustomerId(),
+                    customer.getName(),
+                    customer.getAddress(),
+                    customer.getSalary(),
                     new Button("Delete"));
             customerTMList.add(customerTM);
         }
