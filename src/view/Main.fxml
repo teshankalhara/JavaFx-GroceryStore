@@ -4,19 +4,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
    <children>
-      <JFXButton buttonType="RAISED" layoutX="41.0" layoutY="172.0" onAction="#btnCustomerOnAction" prefHeight="55.0" prefWidth="153.0" style="-fx-background-color: #2980b9; -fx-background-radius: 10;" text="Customer">
+      <JFXButton buttonType="RAISED" layoutX="61.0" layoutY="172.0" onAction="#btnCustomerOnAction" prefHeight="55.0" prefWidth="153.0" style="-fx-background-color: #2980b9; -fx-background-radius: 10;" text="Customer">
          <font>
             <Font size="20.0" />
          </font>
       </JFXButton>
-      <JFXButton buttonType="RAISED" layoutX="225.0" layoutY="172.0" onAction="#btnItemOnAction" prefHeight="55.0" prefWidth="153.0" style="-fx-background-color: #9b59b6; -fx-background-radius: 20;" text="Item">
+      <JFXButton buttonType="RAISED" layoutX="245.0" layoutY="172.0" onAction="#btnItemOnAction" prefHeight="55.0" prefWidth="153.0" style="-fx-background-color: #9b59b6; -fx-background-radius: 20;" text="Item">
          <font>
             <Font size="20.0" />
          </font>
       </JFXButton>
-      <JFXButton buttonType="RAISED" layoutX="406.0" layoutY="172.0" onAction="#btnOrderOnAction" prefHeight="55.0" prefWidth="153.0" style="-fx-background-color: #27ae60; -fx-background-radius: 25;" text="Ordrs">
+      <JFXButton buttonType="RAISED" layoutX="426.0" layoutY="172.0" onAction="#btnOrderOnAction" prefHeight="55.0" prefWidth="153.0" style="-fx-background-color: #27ae60; -fx-background-radius: 25;" text="Ordrs">
          <font>
             <Font size="20.0" />
          </font>
